@@ -1,0 +1,243 @@
+//font
+$font: 100% sans-serif 300;
+//color scheme & scales
+$text-color: #333;
+$quiet-color: #ccc;
+$loud-color: #000;
+$heading-color: #111;
+$primary-color: #575757;
+$secondary-color: #8d8d8d;
+$mute-color: #eee;
+$success-color: #27ae60;
+$bodyBg: #fff;
+
+$zero: 0;
+$half: 50%;
+$ten-px: 10px;
+
+$link-color: $primary-color;
+$link-hover-color: $secondary-color;
+$link-visited-color: purple;
+
+$base-font-family:'Tahoma',Helvatica, sans-serif;
+$base-font-size: 18px;
+$base-font-weight: 300;
+
+$fixed-font-family: monospace;
+$fixed-font-size: 15px;
+$fixed-line-height: 1.2;
+
+$heading-font-family: sans-serif;
+$heading-font-weight: 700;
+
+//classes
+@mixin nopadding{
+    padding: $zero;
+    margin: $zero;
+}
+@mixin background-gr($color1,$color2){
+    
+  background: -webkit-linear-gradient(90deg, $color1 10%, $color2 90%); 
+  background:    -moz-linear-gradient(90deg, $color1 10%, $color2 90%); 
+  background:     -ms-linear-gradient(90deg, $color1 10%, $color2 90%); 
+  background:      -o-linear-gradient(90deg, $color1 10%, $color2 90%); 
+  background:         linear-gradient(90deg, $color1 10%, $color2 90%); 
+        
+}
+@mixin box-shadow($color){
+    box-shadow: 1px 1px 5px $color;
+    -webkit-box-shadow: 1px 1px 5px $color;
+    -moz-box-shadow: 1px 1px 5px $color;
+}
+@mixin filter($filter-type,$filter-amount) { 
+  -webkit-filter: $filter-type+unquote('(#{$filter-amount})');
+  -moz-filter: $filter-type+unquote('(#{$filter-amount})');
+  -ms-filter: $filter-type+unquote('(#{$filter-amount})');
+  -o-filter: $filter-type+unquote('(#{$filter-amount})');
+  filter: $filter-type+unquote('(#{$filter-amount})');
+}
+//data
+a,li,div,.xnav a{
+  transition: all 400ms linear;
+  -webkit-transition: all 400ms linear;
+  -moz-transition: all 400ms linear;
+  -o-transition: all 400ms linear;
+  -ms-transition: all 400ms linear;
+  -webkit-font-smoothing: antialiased; 
+}
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    font-weight: $base-font-weight;
+    color: $text-color;
+    background: $bodyBg;
+    @include nopadding;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+img{
+cursor: pointer;
+}
+a,&:visited{
+    background: transparent;
+    color: $link-color;
+    text-decoration: none;
+    &:hover,&:active,&:focus{
+        outline: 0;
+        color: $link-hover-color;
+        text-decoration: none;
+        outline: none;
+    }
+}
+ul{
+    @include nopadding;
+    list-style: none;    
+}
+
+.h1{
+    font-weight: bold;
+    font-size: 75px;
+    margin-bottom: 40px;
+}
+.h2{
+    line-height: 45px;
+}
+
+.form-control{
+padding: 15px 20px;
+margin:20px;
+border: none;
+font-size: 24px;
+height: auto;
+box-shadow: none;
+border-bottom: 1px  $primary-color solid;
+border-radius: 0;
+    &:hover,&:focus,&:active{
+        border-bottom: 1px  $secondary-color solid;
+    }
+    
+}
+.form-control:focus{
+box-shadow: none;
+}
+
+.form{
+    margin: 30px auto;
+    max-width: 80%;
+    overflow: hidden;
+}
+
+.btn-primary{
+    margin: 30px;
+    background-color: $primary-color;
+    border: none;
+    outline: none;
+    &:hover,&:focus,&:active{
+        background-color: $secondary-color;
+    }
+}
+
+
+
+
+
+// Smartphones (portrait and landscape)
+@media only screen and (min-device-width : 240px) and (max-device-width : 480px) {    
+    .section>.container{
+    padding: 50px;    
+}
+.h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+}
+
+// Smartphones (landscape)
+@media only screen and (min-width : 321px) {
+     .section>.container{
+    padding: 50px;    
+}
+.h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+}
+// Smartphones (portrait)
+@media only screen and (max-width : 320px) {    
+     .section>.container{
+    padding: 50px;    
+}
+.h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+}
+
+// iPads (landscape)
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+     .section>.container{
+    padding: 60px;    
+    }
+    .h1{
+        font-weight: bold;
+        font-size: 75px;
+        margin-bottom: 40px;
+    }
+    .h2{
+        line-height: 45px;
+    }
+}
+// iPads (portrait)
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  .section>.container{
+    padding: 50px;    
+}
+.h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+}
+// Desktops and laptops
+@media only screen and (min-width : 1224px) {
+      .section>.container{
+    padding: 60px;    
+    }
+    .h1{
+        font-weight: bold;
+        font-size: 75px;
+        margin-bottom: 40px;
+    }
+    .h2{
+        line-height: 45px;
+    }
+}
+// Large screens
+@media only screen and (min-width : 1824px) {
+       .section>.container{
+    padding: 60px;    
+    }
+    .h1{
+        font-weight: bold;
+        font-size: 75px;
+        margin-bottom: 40px;
+    }
+    .h2{
+        line-height: 45px;
+    }
+}
+// iPhone 4
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+      .section>.container{
+    padding: 50px;    
+}
+.h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+}

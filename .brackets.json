@@ -1,0 +1,211 @@
+{
+    "sass.enabled": false,
+    "sass.compiler": "libsass",
+    "path": {
+        "css/s.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "output": "s.css",
+                "imagePath": null,
+                "sourceComments": false,
+                "outputStyle": "compressed"
+            },
+            "bracketstoix.prefs": {
+                "version": {
+                    "value": "3.0"
+                },
+                "commands": {
+                    "value": {
+                        "showinmenu": [
+                            "uppercase",
+                            "lowercase",
+                            "capitalize",
+                            "camelcase",
+                            "htmlencode",
+                            "htmldecode",
+                            "urlencode",
+                            "join",
+                            "split",
+                            "number",
+                            "reverse",
+                            "trimleading",
+                            "trimtrailing",
+                            "markdowntrimtrailing",
+                            "sortascending",
+                            "sortdescending",
+                            "removeduplicates",
+                            "removeemptylines",
+                            "unixtowin",
+                            "wintounix",
+                            "singleslashtodouble",
+                            "doubletosingleslash",
+                            "singlequotetodouble",
+                            "doubletosinglequote",
+                            "togglequote",
+                            "tabtospace",
+                            "spacetotab",
+                            "rgb-hex",
+                            "untag",
+                            "tag",
+                            "breaklineat",
+                            "loremipsum",
+                            "functionjsdoc",
+                            "declarejslintglobal",
+                            "extractortoix",
+                            "replacetoix",
+                            "openurl",
+                            "websearch",
+                            "browsefile",
+                            "recentfiles",
+                            "copyfilename",
+                            "copyfullname",
+                            "regnize",
+                            "htmlreport",
+                            "compiler",
+                            "commands",
+                            "commandsmapper",
+                            "options",
+                            "help",
+                            "about"
+                        ],
+                        "showinctxmenu": [],
+                        "hotkeys": {}
+                    }
+                },
+                "splitMarker": {
+                    "value": ","
+                },
+                "splitMarkerExtr": {
+                    "value": "\\t"
+                },
+                "historySize": {
+                    "value": 20
+                },
+                "recentSize": {
+                    "value": 20
+                },
+                "showcxtedit": {
+                    "value": true
+                },
+                "recentFiles": {
+                    "files": [
+                        "C:/Users/Loka/Desktop/start-temp/css/s.scss",
+                        "C:/xteam/platforms/browser/www/js/index.js",
+                        "C:/xteam/platforms/browser/www/cordova.js",
+                        "C:/Users/Loka/Desktop/start-temp/index.html",
+                        "C:/Users/Loka/Desktop/start-temp/.brackets.json",
+                        "C:/wamp/www/xlokaw/.brackets.json",
+                        "C:/wamp/www/xlokaw/public/css/s.scss",
+                        "C:/wamp/www/xlokaw/public/css/s.css",
+                        "C:/wamp/www/xlokaw/app/views/header.php",
+                        "C:/wamp/www/xlokaw/app/markdown/index.md",
+                        "C:/wamp/www/xlokaw/app/views/footer.php",
+                        "F:/XLOKA/WebDesignx/css3_basics/colors.md",
+                        "C:/wamp/www/xlokaw/app/views/contact.php",
+                        "F:/XLOKA/WebDesignx/_book/gitbook/style.css",
+                        "C:/wamp/www/xlokaw/public/.htaccess",
+                        "C:/wamp/www/xlokaw/public/css/_all.scss",
+                        "F:/v.json",
+                        "H:/x_members.json",
+                        "C:/wamp/www/eclinic/static/xloka/css/s.scss",
+                        "H:/mytemp3/mytemp3/index.html"
+                    ]
+                },
+                "startNum": {
+                    "value": 1
+                },
+                "numSep": {
+                    "value": ".\\$",
+                    "history": []
+                },
+                "tabSize": {
+                    "value": 2
+                },
+                "findre": {
+                    "value": "",
+                    "history": []
+                },
+                "find": {
+                    "value": "",
+                    "history": []
+                },
+                "replace": {
+                    "value": "",
+                    "history": []
+                },
+                "startValue": {
+                    "value": "",
+                    "history": []
+                },
+                "stepValue": {
+                    "value": "",
+                    "history": []
+                },
+                "iswordsonly": {
+                    "value": false
+                },
+                "isregexpr": {
+                    "value": true
+                },
+                "isignorecase": {
+                    "value": false
+                },
+                "isimultiline": {
+                    "value": false
+                },
+                "isall": {
+                    "value": true
+                },
+                "isselonly": {
+                    "value": true
+                },
+                "webSearch": {
+                    "value": "https://www.google.com/search?q="
+                },
+                "js6": {
+                    "value": "traceur --out \"{{out}}\" --script \"{{in}}\"",
+                    "fields": {
+                        "autosave": {
+                            "value": false
+                        }
+                    }
+                },
+                "scss": {
+                    "value": "sass --sourcemap \"{{in}}\" \"{{out}}\"",
+                    "fields": {
+                        "autosave": {
+                            "value": false
+                        }
+                    }
+                },
+                "js": {
+                    "value": "uglifyjs \"{{in}}\" -o \"{{out}}\""
+                },
+                "linrparagraphs": {
+                    "value": "1"
+                },
+                "limaxcharsperline": {
+                    "value": "0"
+                },
+                "lihtmlparawrap": {
+                    "value": ""
+                },
+                "maxcharsperline": {
+                    "value": "80"
+                },
+                "tobreakwords": {
+                    "value": false
+                },
+                "beforesave": {
+                    "value": []
+                },
+                "tools": {
+                    "value": []
+                }
+            },
+            "brackets-git.gitPath": "C:\\Program Files (x86)\\Git\\cmd\\git.exe",
+            "mikaeljorhult.bracketsPHPLintTools.php-available": false,
+            "linting.collapsed": true
+        }
+    }
+}
