@@ -129,11 +129,11 @@ box-shadow: none;
 
 .btn-primary{
     margin: 30px;
-    
+    color: #fff;
     border: none;
     outline: none;
     &:hover,&:focus,&:active{
-        
+        color: #fff; 
     }
 }
 
