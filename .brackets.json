@@ -89,26 +89,26 @@
                 },
                 "recentFiles": {
                     "files": [
-                        "C:/Users/Loka/Desktop/start-temp/css/s.scss",
-                        "C:/xteam/platforms/browser/www/js/index.js",
-                        "C:/xteam/platforms/browser/www/cordova.js",
+                        "F:/xgit/start-temp-xloka/css/s.scss",
+                        "F:/xgit/start-temp-xloka/index.html",
                         "C:/Users/Loka/Desktop/start-temp/index.html",
-                        "C:/Users/Loka/Desktop/start-temp/.brackets.json",
-                        "C:/wamp/www/xlokaw/.brackets.json",
+                        "F:/XWEB/tumblr/xloka-temp#2.html",
+                        "C:/Users/Loka/Desktop/start-temp/css/s.scss",
                         "C:/wamp/www/xlokaw/public/css/s.scss",
-                        "C:/wamp/www/xlokaw/public/css/s.css",
+                        "H:/eclinicapp/js/s.js",
+                        "H:/eclinicapp/js/test.json",
+                        "H:/eclinicapp/index.html",
+                        "H:/eclinicapp/.brackets.json",
+                        "C:/wamp/www/tmmitmog/temps/sn/js/s.js",
+                        "C:/Users/Loka/AppData/Local/Temp/fz3temp-1/s.js",
+                        "C:/Users/Loka/AppData/Local/Temp/fz3temp-1/x_website_vars.json",
                         "C:/wamp/www/xlokaw/app/views/header.php",
-                        "C:/wamp/www/xlokaw/app/markdown/index.md",
+                        "C:/wamp/www/xlokaw/app/views/index.php",
                         "C:/wamp/www/xlokaw/app/views/footer.php",
                         "F:/XLOKA/WebDesignx/css3_basics/colors.md",
                         "C:/wamp/www/xlokaw/app/views/contact.php",
-                        "F:/XLOKA/WebDesignx/_book/gitbook/style.css",
-                        "C:/wamp/www/xlokaw/public/.htaccess",
-                        "C:/wamp/www/xlokaw/public/css/_all.scss",
-                        "F:/v.json",
-                        "H:/x_members.json",
-                        "C:/wamp/www/eclinic/static/xloka/css/s.scss",
-                        "H:/mytemp3/mytemp3/index.html"
+                        "F:/XWEB/X/x7/s.scss",
+                        "F:/XWEB/X/x7/s.css"
                     ]
                 },
                 "startNum": {
@@ -205,7 +205,10 @@
             },
             "brackets-git.gitPath": "C:\\Program Files (x86)\\Git\\cmd\\git.exe",
             "mikaeljorhult.bracketsPHPLintTools.php-available": false,
-            "linting.collapsed": true
+            "linting.collapsed": true,
+            "code-folding.folds": {
+                "F:/xgit/start-temp-xloka/css/s.scss": {}
+            }
         }
     }
 }
