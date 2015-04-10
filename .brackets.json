@@ -88,28 +88,7 @@
                     "value": true
                 },
                 "recentFiles": {
-                    "files": [
-                        "F:/xgit/start-temp-xloka/css/s.scss",
-                        "F:/xgit/start-temp-xloka/index.html",
-                        "C:/Users/Loka/Desktop/start-temp/index.html",
-                        "F:/XWEB/tumblr/xloka-temp#2.html",
-                        "C:/Users/Loka/Desktop/start-temp/css/s.scss",
-                        "C:/wamp/www/xlokaw/public/css/s.scss",
-                        "H:/eclinicapp/js/s.js",
-                        "H:/eclinicapp/js/test.json",
-                        "H:/eclinicapp/index.html",
-                        "H:/eclinicapp/.brackets.json",
-                        "C:/wamp/www/tmmitmog/temps/sn/js/s.js",
-                        "C:/Users/Loka/AppData/Local/Temp/fz3temp-1/s.js",
-                        "C:/Users/Loka/AppData/Local/Temp/fz3temp-1/x_website_vars.json",
-                        "C:/wamp/www/xlokaw/app/views/header.php",
-                        "C:/wamp/www/xlokaw/app/views/index.php",
-                        "C:/wamp/www/xlokaw/app/views/footer.php",
-                        "F:/XLOKA/WebDesignx/css3_basics/colors.md",
-                        "C:/wamp/www/xlokaw/app/views/contact.php",
-                        "F:/XWEB/X/x7/s.scss",
-                        "F:/XWEB/X/x7/s.css"
-                    ]
+                    "files": []
                 },
                 "startNum": {
                     "value": 1
@@ -206,9 +185,6 @@
             "brackets-git.gitPath": "C:\\Program Files (x86)\\Git\\cmd\\git.exe",
             "mikaeljorhult.bracketsPHPLintTools.php-available": false,
             "linting.collapsed": true,
-            "code-folding.folds": {
-                "F:/xgit/start-temp-xloka/css/s.scss": {}
-            }
         }
     }
 }
