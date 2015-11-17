@@ -15,4 +15,4 @@ _____
 
 *   tip 2: under js directory there's s.js file it's where you will work on you Javascript ok.
 
-*   tip 3: if you have a question you can find my contacts on the top of index.html or visit [xloka.com](http://xloka.com)
+*   tip 3: if you have a question you can find my contacts on the top of index.html 
